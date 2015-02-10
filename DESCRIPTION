@@ -1,0 +1,15 @@
+Package: Mediation
+Title: Mediation Analysis
+Version: 0.1
+Authors@R: "Jordan Brace <first.last@example.com> [aut, cre]"
+Description: A wrapper for lm() which conducts mediation analyses
+    as described by Baron & Kenny.
+Depends:
+    R (>= 3.1.2),
+    shape,
+    formula.tools
+Imports:
+    shape,
+    formula.tools
+License: CC0
+LazyData: true
